@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
         btnMoodTracker = findViewById(R.id.btnMoodTracker);
         Button btnLightTracker = findViewById(R.id.btnLightTracker);
         Button btnStressDetector = findViewById(R.id.btnStressDetector);
+        Button btnSOS = findViewById(R.id.btnSOS);
+        Button btnChillSpace = findViewById(R.id.btnChillSpace);
 
         btnLightTracker.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, LightTrackerActivity.class);
@@ -34,6 +36,19 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, StressDetectorActivity.class);
             startActivity(intent);
         });
+
+        btnSOS.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, SOS_Call.class);
+            startActivity(intent);
+        });
+
+
+        btnChillSpace.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, ChillSpaceActivity.class);
+            startActivity(intent);
+        });
+
+
 
 
 

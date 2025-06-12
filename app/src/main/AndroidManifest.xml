@@ -17,8 +17,9 @@
         <activity android:name=".StepCounterActivity"/>
         <activity android:name=".LightTrackerActivity"/>
         <activity android:name=".StressDetectorActivity"/>
-
-
+        <activity android:name=".SOS_Call"/>
+        <activity android:name=".ChillSpaceActivity"/>
+        <activity android:name=".FavoritesActivity"/>
 
 
         <activity
