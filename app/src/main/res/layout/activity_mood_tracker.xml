@@ -23,19 +23,19 @@
 
             <RadioButton
                 android:id="@+id/rbHappy"
-                android:layout_width="wrap_content"
+                android:layout_width="133dp"
                 android:layout_height="wrap_content"
                 android:text="😊 Happy" />
 
             <RadioButton
                 android:id="@+id/rbSad"
-                android:layout_width="wrap_content"
+                android:layout_width="123dp"
                 android:layout_height="wrap_content"
                 android:text="😢 Sad" />
 
             <RadioButton
                 android:id="@+id/rbAngry"
-                android:layout_width="wrap_content"
+                android:layout_width="136dp"
                 android:layout_height="wrap_content"
                 android:text="😠 Angry" />
         </RadioGroup>
